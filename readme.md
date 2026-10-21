@@ -34,8 +34,3 @@
   - **4.2 Adminer**
   - Ahora instalamos adminer que es un archivo PHP "sudo apt install php-cli" | "wget https://ww.adminer.org/latest.php -O adminer.php" | "php -S 127.0.0.1:8080 adminer-php"
   - cuando terminamos de instalar buscamos en el buscador "http://localhost:8080/" e iniciamos sesion con una de las bases de datos en este caso mariadb
-
-### Comprobaciones
-
-- phpmyadmin
-- 
