@@ -26,4 +26,15 @@
 3. Clientes para MariaDB
   - **3.1 Cliente de terminal: mariadb**
   - Vamos a instalar el cliente de Mariadb "sudo apt update" | "sudo apt install mariadb-client" | "mariadb --version" | "mariadb -h localhost -u muser -p dbm"
-  - 
+  - Ahora instalamos el servidor web , php, phpmyadmin "sudo apt update" | "sudo apt install apache2 php php-mysql php-mysql php-mbstring php-zip php-gd php-curl phpmyadmin" | "sudo phpenmod mbstring" | "sudo systemctl restart apache2"
+  - desde el navegador buscamos http://localhost/phpmyadmin/ e iniciamos con muser y la contraseña
+4. Clientes para varios SGBD
+  - **4.1 DBeaver Community**
+  - Descargamos el paquete DEB actual desde la pagina de dbeaver.io e instalamos con apt "sudo apt install ./nombre_del_archivo.deb"
+  - **4.2 Adminer**
+  - Ahora instalamos adminer que es un archivo PHP "sudo apt install php-cli" | "wget https://ww.adminer.org/latest.php -O adminer.php" | "php -S 127.0.0.1:8080 adminer-php"
+  - cuando terminamos de instalar buscamos en el buscador "http://localhost:8080/" e iniciamos sesion con una de las bases de datos en este caso mariadb
+
+### Comprobaciones
+
+- !phpmyadmin
