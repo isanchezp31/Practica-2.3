@@ -37,4 +37,5 @@
 
 ### Comprobaciones
 
-- !phpmyadmin
+- phpmyadmin
+- 
